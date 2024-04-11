@@ -1,0 +1,14 @@
+.footer {
+    top: auto;
+    bottom: 0;
+    background-color: #2a2529 !important;
+    height: 48px;
+}
+
+.toolbar {
+    justify-content: center;
+}
+
+.toolbar .footer-middle-label {
+    padding-bottom: 12px;
+}

@@ -1,0 +1,19 @@
+.air-fares-label {
+    font-weight: bold !important;
+    opacity: 0.8;
+    margin: 12px 0 !important;
+}
+
+.selected-date-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.package-label {
+    font-weight: bold !important;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0 12px 0;
+    color: #666;
+}

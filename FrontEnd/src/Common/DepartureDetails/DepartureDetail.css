@@ -1,0 +1,16 @@
+.box-detail {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 72px;
+}
+
+.box-detail .date {
+    font-weight: bold;
+}
+
+.box-detail .seat {
+    color: #08c;
+}

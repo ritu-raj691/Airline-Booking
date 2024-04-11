@@ -1,0 +1,27 @@
+.table {
+    min-width: 650px;
+}
+
+.drawer {
+    width: 400px;
+    padding: 20px;
+}
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #d3d7e963;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.filters {
+    margin-bottom: '20px'
+}
+
+.margin-right-8 {
+    margin-right: 8px;
+}

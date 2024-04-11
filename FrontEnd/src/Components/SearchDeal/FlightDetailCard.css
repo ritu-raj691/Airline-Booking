@@ -1,0 +1,305 @@
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.parent-section {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flight-info {
+    width: 75%;
+    border-right: 1px dotted #666;
+}
+
+.flight-info .flight-info-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.flight-info .flight-info-row .flight-detail {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-info .flight-info-row .flight-detail .flight-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.flight-info .flight-info-row .flight-detail .flight-number {
+    font-size: 16px;
+    color: #555;
+}
+
+.flight-info .flight-info-row .flight-full-detail {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.flight-info .flight-info-row .flight-full-detail .time-place-info {
+    float: left;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-info .flight-info-row .flight-full-detail .time-place-info .time {
+    font-weight: bold;
+    color: #096;
+}
+
+.flight-info .flight-info-row .flight-full-detail .time-place-info .departure-place-name {
+    font-size: 12px;
+}
+
+.flight-info .flight-info-row .flight-full-detail .time-place-info .departure-place .departure-place-code {
+    font-weight: bold;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.flight-info .flight-info-row .flight-full-detail .duration-info {
+    float: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 13px;
+    width: 50%;
+}
+
+.flight-info .flight-info-row .flight-full-detail .duration {
+    color: #666;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrow {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px dotted #1976d2;
+    margin: 4px 0;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrow-box {
+    width: 12px;
+    height: 10px;
+    background: #1976d2;
+    margin-top: -6px;
+}
+
+.flight-info .flight-info-row .flight-full-detail .stoppage {
+    color: #666;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrival-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrival-info .arrival-time {
+    font-weight: bold;
+    color: #096;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrival-place {
+    font-size: 12px;
+}
+
+.flight-info .flight-info-row .flight-full-detail .arrival-place .arrival-place-code {
+    font-weight: bold;
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.flight-row-divider {
+    margin: 8px 0;
+    border-top: 1px dotted #666;
+}
+
+.price-info {
+    width: 25%;
+    text-align: center;
+}
+
+.price-info .fare-with-book-now .fare {
+    color: #de6b26;
+    font-weight: bold;
+}
+
+.price-info .fare-with-book-now .book-now-btn {
+    text-transform: none;
+}
+
+/* .flight-booking-info {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flight-one-way-booking-info {
+    width: 400px;
+    padding: 20px 0 20px 20px;
+}
+
+.airline-info {
+    font-weight: 14px;
+    color: #999;
+}
+
+.airline-name {
+    font-weight: bold;
+    padding-right: 4px;
+    color: #333;
+}
+
+.airline-number {
+    font-size: 12px;
+    padding-left: 5px;
+    color: #555;
+}
+
+.airline-departure-date {
+    font-size: 13px;
+    font-weight: bold;
+    color: #096;
+    margin-left: 20px;
+}
+
+.layover-info {
+    font-size: 12px;
+    padding-top: 8px;
+    color: #666;
+}
+
+.flight-detail-block {
+    margin-top: 12px;
+    display: flex;
+}
+
+.departure-info {
+    float: left;
+    margin-left: 20px;
+}
+
+.departure-info .departure-time {
+    text-align: right;
+    font-weight: bold;
+}
+
+.departure-info .departure-place .departure-place-name {
+    font-size: 12px;
+}
+
+.departure-place .departure-place-code {
+    font-weight: bold;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.duration-info {
+    float: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 11px;
+    min-width: 80px;
+}
+
+.duration {
+    color: #666;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #666;
+    margin: 4px 0;
+}
+
+.arrow-box {
+    width: 4px;
+    height: 4px;
+    background: #666;
+    margin-top: -3px;
+}
+
+.stoppage {
+    color: #666;
+}
+
+.arrival-info .arrival-time {
+    font-weight: bold;
+}
+
+.arrival-place {
+    font-size: 12px;
+}
+
+.arrival-place .arrival-place-code {
+    font-weight: bold;
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.flight-return-booking-info {
+    width: 400px;
+    margin-right: 24px;
+    padding: 20px 0 20px 20px;
+} */
+
+.seat-booking-info {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 0;
+}
+
+.seat-booking-info .seat-info-with-buggage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-booking-info .seat-info-with-buggage .seat-left {
+    background-color: #0296d8;
+    color: #fff;
+    padding: 2px 12px;
+    border-radius: 15px;
+}
+
+/* .seat-booking-info .fare-with-book-now {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 24px;
+}
+
+.seat-booking-info .fare-with-book-now .fare {
+    color: #de6b26;
+    font-weight: bold;
+}
+
+.seat-booking-info .fare-with-book-now .book-now-btn {
+    text-transform: none;
+} */
+
+.package-detail-info {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 20px 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}

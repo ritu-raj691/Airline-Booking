@@ -1,0 +1,104 @@
+.pic-card {
+    display: flex;
+    margin: 20px 0 15px 0;
+    width: 100%;
+    box-shadow: 0 0.3px 0.4px rgba(0, 0, 0, 0.025), 0 0.9px 1.5px rgba(0, 0, 0, 0.05), 0 3.5px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pic-card figure {
+    position: relative;
+}
+
+.pic-card figure a {
+    color: #08c;
+    outline: none;
+    text-decoration: none;
+}
+
+.pic-card figure a img {
+    width: 400px;
+    height: 240px;
+    margin-bottom: -4px;
+}
+
+.pic-card figure .highlight {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    text-transform: uppercase;
+    background: #eb1b5f;
+    color: #fff;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.pic-card .card-detail {
+    padding: 15px 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.pic-card .card-detail .header {
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+.pic-card .card-detail .itenary {
+    font-size: 14px;
+    color: #096;
+    padding-bottom: 4px;
+}
+
+.pic-card .card-detail .ratings {
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+.pic-card .card-detail .upcoming-departures-label {
+    color: #666;
+    margin-top: 12px;
+}
+
+.pic-card .card-detail .upcoming-depart-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pic-card .card-detail .upcoming-depart-details .padding-top-12 {
+    padding-top: 12px;
+}
+
+.pic-card .card-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+    min-width: 120px;
+    max-width: 100%;
+    border-left: 1px solid #eee;
+}
+
+.pic-card .card-price .package-fare {
+    color: #de6b26;
+    font-weight: bold;
+}
+
+.pic-card .card-price .view-details-btn {
+    text-transform: none;
+}
+
+.pic-card .card-price .margin-top-8 {
+    margin-top: 8px;
+}
+
+.pic-card .card-price .color-666 {
+    color: #666;
+}

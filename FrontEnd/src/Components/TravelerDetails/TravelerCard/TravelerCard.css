@@ -1,0 +1,37 @@
+.traveler-box {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 2em 0;
+}
+
+.traveler-box .traveler-serial-number {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.traveler-box .dob-date-grid>div {
+    padding-top: 0;
+    overflow: hidden;
+}
+
+.traveler-box .dob-date-grid {
+    width: 100%;
+}
+
+.traveler-box .dob-date-picker {
+    height: 40px;
+    width: 100%;
+}
+
+.traveler-box .dob-date-picker label {
+    top: -7px;
+}
+
+.traveler-box .dob-date-picker .MuiInputLabel-shrink {
+    top: 5px;
+}
+
+.traveler-box .dob-date-picker input {
+    padding: 8px;
+}

@@ -1,0 +1,87 @@
+.filter-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 20px 28px 20px;
+    border-radius: 4px;
+    background-color: rgb(19 31 50 / 93%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.flex-row-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-row-center-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.date-picker {
+    width: 200px;
+    margin-right: 22px !important;
+}
+
+.date-picker label {
+    color: #fff !important;
+    top: -4px;
+}
+
+.date-picker>div {
+    height: 44px;
+    overflow: hidden;
+}
+
+.date-picker input,
+.date-picker button {
+    color: #fff;
+}
+
+.date-picker fieldset {
+    border-color: #fff !important;
+}
+
+.search-flight {
+    text-transform: none;
+    height: 36px;
+    margin-bottom: 2px;
+}
+
+.margin-top-16 {
+    margin-top: 16px;
+}
+
+.margin-right-22 {
+    margin-right: 22px;
+}
+
+.select-item label {
+    color: #fff !important;
+}
+
+.select-item .MuiInputBase-fullWidth {
+    height: 44px;
+}
+
+.select-item input,
+.select-item button {
+    color: #fff;
+}
+
+.select-item fieldset {
+    border-color: #fff !important;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

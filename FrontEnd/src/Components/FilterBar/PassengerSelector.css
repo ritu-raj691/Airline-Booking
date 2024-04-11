@@ -1,0 +1,67 @@
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.filter-bar .travelers-label {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.filter-bar .no-of-travelers {
+    margin-right: 22px !important;
+    min-width: 200px !important;
+}
+
+.filter-bar .no-of-travelers>div {
+    height: 44px;
+    overflow: hidden;
+}
+
+.filter-bar .no-of-travelers fieldset {
+    border-color: #fff !important;
+}
+
+.filter-bar .no-of-travelers input {
+    color: #fff !important;
+}
+
+.pop-over .MuiPopover-paper {
+    padding: 8px;
+    width: 200px;
+}
+
+.pop-over .flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-over .flex-column div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    align-items: center;
+}
+
+.pop-over .flex-column .adults .counters button,
+.pop-over .flex-column .children .counters button,
+.pop-over .flex-column .infants .counters button {
+    padding: 0 !important;
+    min-width: 28px;
+    height: 24px;
+}
+
+.pop-over .flex-column .adults .counters button span,
+.pop-over .flex-column .children .counters button span,
+.pop-over .flex-column .infants .counters button span {
+    margin: 0;
+}
+
+.pop-over .flex-column .btn-done {
+    background: #f6f6f6;
+    padding-top: 8px;
+}
+
+.pop-over .flex-column .btn-done {
+    justify-content: end;
+}
